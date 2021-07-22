@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuitePet">
+    <test name="testPet">
+        <groups>
+            <run>
+                <include name="pet"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="petStore.CrudPetTest"/>
+        </classes>
+    </test>
+</suite>
